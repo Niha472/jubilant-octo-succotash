@@ -1,0 +1,27 @@
+body{
+    background-color:#E34A6F ;
+}
+#show_sketch{
+    float: right;
+    font-size: small;
+    font-family:cursive ;
+}
+h1{
+    box-shadow: 2px -2px 5px 1px #9368B7;
+}
+canvas{
+    border: 5px solid white;
+    margin-top: 90px;
+    background-color: white;
+    border-radius: 50px;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:5px 5px 30px  #DA4167; }
+    to{box-shadow:  5px 5px 30px  #FFBE0B;}
+    to{box-shadow:  5px 5px 30px  #541388;}
+    to{box-shadow:  5px 5px 30px  #FF006E;}
+    to{box-shadow:  5px 5px 30px  #083D77;}
+}
